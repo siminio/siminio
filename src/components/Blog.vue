@@ -11,11 +11,10 @@
 import BlogNav from './BlogNav'
 import BlogFeed from './BlogFeed'
 import BlogPost from './BlogPost'
-import BlogFooter from './BlogFooter'
 
 export default {
   name: 'blog',
-  components: { BlogNav, BlogFeed, BlogPost, BlogFooter },
+  components: { BlogNav, BlogFeed, BlogPost },
   resource: 'Blog',
   props: {
     post: String,
